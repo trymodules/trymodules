@@ -1,0 +1,10 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "daemon": true,
+  "envMode": "loose",
+  "tasks": {
+    "test": {
+      "outputs": ["coverage/**"]
+    }
+  }
+}
