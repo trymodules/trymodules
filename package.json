@@ -1,0 +1,24 @@
+{
+  "name": "trymodules",
+  "author": {
+    "name": "TryModules",
+    "email": "info@trymodules.com",
+    "url": "https://trymodules.com"
+  },
+  "packageManager": "pnpm@10.5.2",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "workspaces": {
+    "nohoist": [],
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.28.1",
+    "husky": "^9.1.7",
+    "turbo": "^2.4.4",
+    "typescript": "^5.8.2"
+  }
+}

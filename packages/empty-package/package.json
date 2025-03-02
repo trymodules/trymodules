@@ -1,0 +1,8 @@
+{
+  "name": "@trymodules/empty-package",
+  "version": "1.0.0",
+  "scripts": {
+    "changeset": "changeset",
+    "test": "echo test"
+  }
+}
